@@ -1,11 +1,11 @@
 FROM centos
 
-RUN mkdir -p /usr/src/app
-WORKDIR /usr/src/app
-COPY . /usr/src/app
+RUN mkdir -p /work
+WORKDIR /work
+COPY . /work
 
-RUN service httpd start
+RUN  yum -y install nodejs
 
-EXPOSE 3000
+#EXPOSE 3000
 
 CMD [ "ls "," -al"]
