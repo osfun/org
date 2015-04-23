@@ -4,8 +4,8 @@ RUN mkdir -p /work
 WORKDIR /work
 COPY . /work
 
-RUN  yum -y install nodejs
-
+RUN  echo 111 > /work/test
+RUN  cat /work/test
 #EXPOSE 3000
 
 CMD [ "ls "," -al"]
