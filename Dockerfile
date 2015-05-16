@@ -1,11 +1,7 @@
-FROM centos
+FROM osfun/rails
+MAINTAINER Dean
 
-RUN mkdir -p /work
-WORKDIR /work
-COPY . /work
 
-RUN  echo 111 > /work/test
-RUN  cat /work/test
-#EXPOSE 3000
+EXPOSE 80
 
 CMD [ "ls "," -al"]
