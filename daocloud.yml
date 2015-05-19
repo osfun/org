@@ -1,7 +1,7 @@
 image osfun/rails
 
 services:
-    - nginx
+    - /home/work/sbin/nginx
 
 env:
     - MYENV = "hello"
