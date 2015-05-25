@@ -1,8 +1,8 @@
 # Author Dean
 image: osfun/rails:latest
 
-services:
-  - nginx
+#services:
+#  - nginx
 
 env:
   - MYENV = "hello"
