@@ -1,8 +1,8 @@
 image osfun/rails
 
-#services:
-#    - /home/work/sbin/nginx
-#
+services:
+    - /home/work/sbin/nginx
+
 
 env:
     - MYENV = "hello"
@@ -21,5 +21,4 @@ script:
     - echo $MYENV
     - echo "This is an script segment"
     - echo "Run test cases here"
-    - echo ""
     - echo "Below shows how to use services"
