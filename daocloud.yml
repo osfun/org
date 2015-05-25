@@ -1,6 +1,5 @@
 ＃which build image you want to use, you can select one from daocloud support list
 image osfun/rails
-
 services:
   - /home/work/sbin/nginx
 
