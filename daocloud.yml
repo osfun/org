@@ -6,6 +6,7 @@ env:
 
 install:
   - echo $MYENV
+  - yum -y install git
   - echo "This is an install segment"
   - echo "Here, we usually run scripts to setup a base environment"
 
